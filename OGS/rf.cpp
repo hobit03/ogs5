@@ -38,8 +38,8 @@
 #include <omp.h>
 #endif
 
-#ifdef OGS_FEM_IPQC
-//#include <IPhreeqc.h>
+//#ifdef OGS_FEM_IPQC
+#if defined(USE_MPI)
 #include "rf_react.h"
 #endif
 
